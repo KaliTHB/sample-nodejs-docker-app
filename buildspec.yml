@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase started"
+  pre_build:
+    commands:
+      - echo "Pre-build phase"
+      - pwd
+      - ls -la
+  build:
+    commands:
+      - echo "Build phase running"
+      - echo "Repo cloned successfully"
